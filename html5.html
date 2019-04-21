@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,700" rel="stylesheet">
+
+    <title>Les films de plein air</title>
+
+</head>
+
+<body>
+    <div id="mainPage">
+
+        <header>
+
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light justify-content-between " id="menu">
+                    <img src="images/logo1.png" alt="logo" class="navbar-brand" max-width="75">
+                    <h1 class="h1Brand">Les Films de Plein Air</h1>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navmenu">
+                        <ul class="navbar-nav ml-auto justify-content-center">
+                            <li class="navbar-item">
+                                <a href="index.html" class="navbar-link">Accueil</a>
+                            </li>
+
+                            <li class="navbar-item">
+                                <a href="html2.html" class="navbar-link">Le festival</a>
+                            </li>
+
+                            <li class="navbar-item">
+                                <a href="html3.html" class="navbar-link">Actus</a>
+                            </li>
+
+                            <li class="navbar-item">
+                                <a href="html4.html" class="navbar-link">Agenda</a>
+                            </li>
+
+                            <li class="navbar-item">
+                                <a href="html5.html" class="navbar-link active">Contact</a>
+                            </li>
+                        </ul>
+
+                        <form class="input-group m-0 p-0 input-group-sm col-md-2 align-self-end">
+                            <input type="text" class="form-control textSearch" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary boutonSearch" type="button"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+
+        <section class="container" >
+
+            <h1>Pour toute demande de réservation ou d'information :</h1>
+
+            <form id="contact">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="first">Votre prenom</label>
+                            <input type="text" class="form-control" id="text" required placeholder="" id="first">
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="last">Votre nom</label>
+                            <input type="text" class="form-control" id="text" required placeholder="" id="last">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <div class="form-group">
+                            <label for="email">Votre adresse mail</label>
+                            <input type="email" class="form-control" id="email" name="email" required placeholder="ex: baloo@kikoo.com">
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+
+                        <div class="form-group">
+                            <label for="phone">Votre téléphone</label>
+                            <input type="tel" class="form-control" pattern="^\d{2}.\d{2}.\d{2}.\d{2}.\d{2}$" placeholder="ex: 06.00.00.00.00">
+                        </div>
+                    </div>
+
+                </div>
+
+                 <div class="row">
+                    <div class="col">
+
+                  <div class="form-group">
+                            <label for="messageContact">Votre message</label>
+                            <textarea class="form-control " id="messageContact" rows="3" placeholder="écrire votre message ici"></textarea>
+                  </div>
+</div>
+                </div>
+
+<div class="row">
+    <div class="col-md-6 formResa">
+                <label for="contact-preference">Pré-réservez une projection</label>
+                <div class="radio">
+                    <label>
+        <input type="radio" name="contact-preference" id="contact-preference" value="am" checked>05/08 La haine
+      </label>
+                </div>
+                <div class="radio">
+                    <label>
+        <input type="radio" name="contact-preference" id="contact-preference" value="pm" checked>05/08 Dogma
+      </label>
+                </div>
+                <div class="radio">
+                    <label>
+        <input type="radio" name="contact-preference" id="contact-preference" value="pm" checked>06/08 Akira
+      </label>
+                </div>
+                <div class="radio">
+                    <label>
+        <input type="radio" name="contact-preference" id="contact-preference" value="pm" checked>06/08 A toute épreuve
+      </label>
+                </div>
+                <div class="radio">
+                    <label>
+        <input type="radio" name="contact-preference" id="contact-preference" value="pm" checked>07/08 The kid
+      </label>
+                </div>
+                <div class="radio">
+                    <label>
+        <input type="radio" name="contact-preference" id="contact-preference" value="pm" checked>07/08 Lady killers
+      </label>
+                </div>
+                <div class="radio">
+                    <label>
+        <input type="radio" name="contact-preference" id="contact-preference" value="pm" checked>08/08 Paranoid park
+      </label>
+                </div>
+                <div class="radio">
+                    <label>
+        <input type="radio" name="contact-preference" id="contact-preference" value="pm" checked>08/08 Le tombeau des lucioles
+      </label>
+                </div>
+                </div>
+
+<div class="col-md-6">
+
+                        <div class="form-group formResa">
+                            <label for="resaPlace">Nombre de places a pré-réserver</label>
+                            <input type="resaPlace" class="form-control" pattern="[1-4]{1}" placeholder="Maximum de 4 places
+                        ">
+                        </div>
+                    </div>
+
+    <div class="col-12 formResa">
+                <label for="newsletter"><input type="checkbox" value="Sure!" id="newsletter"> Voulez-vous recevoir notre newsletters afin de rien rater sur l'actualité du festival?</label>
+            </div>
+                
+
+
+    <div class="col-12 formResa">
+                <button type="submit" class="btn btn-primary">Envoyez</button>
+            </div>
+            
+            </form>
+
+    </section>
+
+    <footer>
+        <div class="container" id="footer">
+
+
+
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <h3>Les films en plein air</h3>
+                    <div class="col-xs-12">
+                        <p>Du 5 au 8 août 2018, au Parc Monceau à Paris. (sous réserve de bonnes conditions météorolgique.)</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <h3>Reseaux sociaux</h3>
+
+                    <div class="col-xs-12">
+                        <i class="fab fa-facebook-square fa-3x"></i>
+                        <i class="fab fa-youtube-square fa-3x"></i>
+                        <i class="fab fa-twitter-square fa-3x"></i>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4">
+                    <h3>Contact</h3>
+
+                    <div class="col-xs-12">
+                        <p><i class="fas fa-phone"></i> 01.01.01.01.01</p>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <p><i class="fas fa-map-marker-alt"></i> 1 rue du Dev Web 75024 Paris</p>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <p><i class="far fa-envelope"></i> association@films-plein-air.com</p>
+                    </div>
+                </div>
+            </div>
+
+            </section>
+
+    </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

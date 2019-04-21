@@ -1,0 +1,332 @@
+
+/*************************** global site *********************************/
+
+.container{
+	padding-right: 0x;
+	padding-left: 0px;
+	margin-bottom: 10px;
+    font-family: 'IBM Plex Mono', monospace;  
+}
+
+
+#contact, #actus1, #actus2, #presentationFestival, .tabAgenda , #lastActus, #presentationMainPage,.textBackground{
+    background-color: #e6e6e6;
+    padding: 20px;
+    text-align: justify;
+}
+
+ #lastActus, #presentationFestival , .imgFestival, #actus, #actus1, #tabs, #contact, #rowFestival,.containerFilms{
+    margin-bottom:  50px;
+}
+
+section h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #4e4f51;
+}
+
+
+p{
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding: 10px;
+}
+
+iframe.col-12{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+/********************************************* header ****************************************/
+
+header{
+    margin-bottom: 50px;
+    background-color: #e6e6e6;
+    border-bottom: 1px solid #808080;
+}
+
+/*********** Menu ***********/
+@media only screen and (max-width:450px) {
+ img.navbar-brand{
+ display: none;
+ }
+}
+.h1Brand{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #4e4f51;
+}
+.navbar-link{
+    color: #8c8c8c;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.navbar-link:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.navbar-link.active{
+    color:black;
+}
+
+#menu {
+    padding-left: 0px;
+    padding-right: 0px;       
+}
+
+.navbar-nav{
+    margin-right: 10px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn.btn-outline-secondary.boutonSearch{
+    background-color: #ffffff;   
+}
+
+button.btn.btn-outline-secondary{/*safari*/
+background-color: #ffffff;   
+}
+
+button.navbar-toggler{
+    background-color: #ffffff;
+}
+
+input.form-control.textSearch{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    color: grey;
+    margin-bottom: 12px;
+}
+
+button.btn.btn-outline-secondary.boutonSearch{
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+border: none;
+margin-bottom: 12px;
+}
+/*************** page index ***************/
+.itemActusMainPage{
+    margin-top: 50px;
+}
+/************** page festival *************/
+@media only screen and (max-width:767px){
+#presentationFestival{
+    margin-top: 50px;
+}
+}
+/************ page actus ***************/
+#nav-tab{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+div.col-lg-6.col-sm-6.portfolio-item{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.titreArchivesActus{
+    text-align: justify;
+    color: #4e4f51;
+}
+
+.titreActus{
+    color: #000000;
+}
+
+div.card-body a.decorationLien {
+color: black;
+}
+
+li.liNavActus{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    display:block;
+    text-align:left;
+}
+
+ul.ulNavActus{
+    margin-left: -40px;
+}
+.navbar-link.navActus{
+    font-size: 15px;
+    color: #808080; 
+}
+
+/* titre des actus sur le site complet*/
+h4.titreActus{
+    display:block;
+    text-align:center;
+}
+
+
+
+/*********** page agenda ************/
+
+a.nav-item.nav-link.itemTabNav{
+    color: #808080;
+}
+
+.nav-item.nav-link.itemTabNav.active{
+    background-color: #e6e6e6;
+    color: #000000;
+}
+
+.tabAgenda{
+    margin-bottom: 50px;
+}
+
+.btnAgenda{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+div.col a.decorationLien{
+    color:#000000;
+}
+.filmAgenda{
+    margin: auto;
+    text-align: center;
+
+}
+
+h2.titrefilmsAgenda{
+    display: block;
+    text-align: center;
+}
+
+/*********** page contact **************/
+
+.formResa{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  padding: 6px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #bbbbbb;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+  background-color: #808080;
+}
+div.formResa .btn{
+    background-color: #808080;
+    border-color: #808080;
+}
+/*********** page film ****************/
+
+.textBackground.aboutFilm{
+    margin-top: 50px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.synopFilm{
+    margin-bottom: 50px
+}
+
+@media only screen and (max-width:990px) {
+ .row.textBackground.synopFilm{
+ margin-right: 1px;
+ margin-left: 1px;
+ margin-top: 50px;
+ }
+}
+
+.btnFilm{  /* fiche film et agenda */
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+}
+
+button.btn.btn-light.btn-lg{
+    background-color: #e6e6e6;
+    
+}
+
+/********** page article *********/
+
+a.img-article{
+    text-align: center;
+    margin-top: 50px;
+}
+h3.titreActus{
+    text-align: center;
+}
+
+/***************************************************** footer *******************************************/
+
+footer {
+    border-top: 1px solid #000000;
+    background-color: #e6e6e6;
+    padding-top: 10px;
+    text-align: center
+}
+
+footer h3{
+    font-weight: bold;
+    color:#4e4f51;
+    font-size: 25px;
+
+}
+
+#footer .col-xs-12{
+    margin-top: 20px;
+    
+}
+
+footer p{
+    color: #4e4f51;
+}
+
+footer i{
+    color: #4e4f51;
+}
+
+#socialFooter.col-xs-12{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
